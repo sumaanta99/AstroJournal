@@ -10,7 +10,7 @@ export default function DrawerStack() {
   return (
     <Drawer.Navigator>
       <Drawer.Screen name="Home" component={HomeScreen} />
-      <Drawer.Screen name="JournalScreen" component={JournalScreen} />
+      <Drawer.Screen name="Journals" component={JournalScreen} />
     </Drawer.Navigator>
   );
 }
